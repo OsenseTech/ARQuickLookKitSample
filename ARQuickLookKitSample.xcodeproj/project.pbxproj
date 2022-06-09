@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6527036E2851CA61006637BF /* ARQuickLookKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6527036D2851CA61006637BF /* ARQuickLookKit */; };
+		652703702851CA64006637BF /* CameraButton in Frameworks */ = {isa = PBXBuildFile; productRef = 6527036F2851CA64006637BF /* CameraButton */; };
+		652703742851CAB5006637BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652703712851CAB5006637BF /* ViewController.swift */; };
+		652703752851CAB5006637BF /* ViewController+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652703722851CAB5006637BF /* ViewController+UIGestureRecognizerDelegate.swift */; };
+		652703762851CAB5006637BF /* ViewController+ARSCNViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652703732851CAB5006637BF /* ViewController+ARSCNViewDelegate.swift */; };
+		652703792851CB5F006637BF /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 652703782851CB5F006637BF /* SnapKit */; };
+		659544692851CC0E00306388 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 659544682851CC0E00306388 /* Models.scnassets */; };
 		65D322832851C8F6008D665A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D322822851C8F6008D665A /* AppDelegate.swift */; };
 		65D322852851C8F6008D665A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D322842851C8F6008D665A /* SceneDelegate.swift */; };
-		65D322872851C8F6008D665A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D322862851C8F6008D665A /* ViewController.swift */; };
 		65D3228A2851C8F6008D665A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D322882851C8F6008D665A /* Main.storyboard */; };
 		65D3228C2851C8F7008D665A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D3228B2851C8F7008D665A /* Assets.xcassets */; };
 		65D3228F2851C8F7008D665A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D3228D2851C8F7008D665A /* LaunchScreen.storyboard */; };
+		772A13D4C1DF15DAD6D4C076 /* Pods_ARQuickLookKitSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA00E2B5D92987F8CD630F60 /* Pods_ARQuickLookKitSample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01C1B6FE1AE66C13936D4402 /* Pods-ARQuickLookKitSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARQuickLookKitSample.debug.xcconfig"; path = "Target Support Files/Pods-ARQuickLookKitSample/Pods-ARQuickLookKitSample.debug.xcconfig"; sourceTree = "<group>"; };
+		652703712851CAB5006637BF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		652703722851CAB5006637BF /* ViewController+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
+		652703732851CAB5006637BF /* ViewController+ARSCNViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+ARSCNViewDelegate.swift"; sourceTree = "<group>"; };
+		659544682851CC0E00306388 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
 		65D3227F2851C8F6008D665A /* ARQuickLookKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARQuickLookKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D322822851C8F6008D665A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65D322842851C8F6008D665A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		65D322862851C8F6008D665A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		65D322892851C8F6008D665A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65D3228B2851C8F7008D665A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65D3228E2851C8F7008D665A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65D322902851C8F7008D665A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65E55C8F2851CA2600CE5D9F /* ARQuickLookKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ARQuickLookKit; path = ../ARQuickLookKit; sourceTree = "<group>"; };
+		BA00E2B5D92987F8CD630F60 /* Pods_ARQuickLookKitSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARQuickLookKitSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E88C4426435A779887F206 /* Pods-ARQuickLookKitSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARQuickLookKitSample.release.xcconfig"; path = "Target Support Files/Pods-ARQuickLookKitSample/Pods-ARQuickLookKitSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				652703792851CB5F006637BF /* SnapKit in Frameworks */,
+				6527036E2851CA61006637BF /* ARQuickLookKit in Frameworks */,
+				652703702851CA64006637BF /* CameraButton in Frameworks */,
+				772A13D4C1DF15DAD6D4C076 /* Pods_ARQuickLookKitSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6527036C2851CA61006637BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA00E2B5D92987F8CD630F60 /* Pods_ARQuickLookKitSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		65D322762851C8F6008D665A = {
 			isa = PBXGroup;
 			children = (
+				65E55C8E2851CA2600CE5D9F /* Packages */,
 				65D322812851C8F6008D665A /* ARQuickLookKitSample */,
 				65D322802851C8F6008D665A /* Products */,
+				6527036C2851CA61006637BF /* Frameworks */,
+				F778D759B37CF4AF3EE5DFD7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +87,33 @@
 			children = (
 				65D322822851C8F6008D665A /* AppDelegate.swift */,
 				65D322842851C8F6008D665A /* SceneDelegate.swift */,
-				65D322862851C8F6008D665A /* ViewController.swift */,
+				652703712851CAB5006637BF /* ViewController.swift */,
+				652703732851CAB5006637BF /* ViewController+ARSCNViewDelegate.swift */,
+				652703722851CAB5006637BF /* ViewController+UIGestureRecognizerDelegate.swift */,
 				65D322882851C8F6008D665A /* Main.storyboard */,
 				65D3228B2851C8F7008D665A /* Assets.xcassets */,
+				659544682851CC0E00306388 /* Models.scnassets */,
 				65D3228D2851C8F7008D665A /* LaunchScreen.storyboard */,
 				65D322902851C8F7008D665A /* Info.plist */,
 			);
 			path = ARQuickLookKitSample;
+			sourceTree = "<group>";
+		};
+		65E55C8E2851CA2600CE5D9F /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				65E55C8F2851CA2600CE5D9F /* ARQuickLookKit */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		F778D759B37CF4AF3EE5DFD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01C1B6FE1AE66C13936D4402 /* Pods-ARQuickLookKitSample.debug.xcconfig */,
+				C1E88C4426435A779887F206 /* Pods-ARQuickLookKitSample.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +123,22 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65D322932851C8F7008D665A /* Build configuration list for PBXNativeTarget "ARQuickLookKitSample" */;
 			buildPhases = (
+				1E9EB41D599C33B4C3447EE9 /* [CP] Check Pods Manifest.lock */,
 				65D3227B2851C8F6008D665A /* Sources */,
 				65D3227C2851C8F6008D665A /* Frameworks */,
 				65D3227D2851C8F6008D665A /* Resources */,
+				D7F4EA124A0E2DA38C576158 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ARQuickLookKitSample;
+			packageProductDependencies = (
+				6527036D2851CA61006637BF /* ARQuickLookKit */,
+				6527036F2851CA64006637BF /* CameraButton */,
+				652703782851CB5F006637BF /* SnapKit */,
+			);
 			productName = ARQuickLookKitSample;
 			productReference = 65D3227F2851C8F6008D665A /* ARQuickLookKitSample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +167,9 @@
 				Base,
 			);
 			mainGroup = 65D322762851C8F6008D665A;
+			packageReferences = (
+				652703772851CB5F006637BF /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 65D322802851C8F6008D665A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65D3228F2851C8F7008D665A /* LaunchScreen.storyboard in Resources */,
+				659544692851CC0E00306388 /* Models.scnassets in Resources */,
 				65D3228C2851C8F7008D665A /* Assets.xcassets in Resources */,
 				65D3228A2851C8F6008D665A /* Main.storyboard in Resources */,
 			);
@@ -133,13 +193,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E9EB41D599C33B4C3447EE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARQuickLookKitSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7F4EA124A0E2DA38C576158 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARQuickLookKitSample/Pods-ARQuickLookKitSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARQuickLookKitSample/Pods-ARQuickLookKitSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARQuickLookKitSample/Pods-ARQuickLookKitSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		65D3227B2851C8F6008D665A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D322872851C8F6008D665A /* ViewController.swift in Sources */,
+				652703742851CAB5006637BF /* ViewController.swift in Sources */,
+				652703752851CAB5006637BF /* ViewController+UIGestureRecognizerDelegate.swift in Sources */,
 				65D322832851C8F6008D665A /* AppDelegate.swift in Sources */,
+				652703762851CAB5006637BF /* ViewController+ARSCNViewDelegate.swift in Sources */,
 				65D322852851C8F6008D665A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +386,7 @@
 		};
 		65D322942851C8F7008D665A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01C1B6FE1AE66C13936D4402 /* Pods-ARQuickLookKitSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +395,10 @@
 				DEVELOPMENT_TEAM = SUV34UZRXX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ARQuickLookKitSample/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "開啟 AR 畫面";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "錄影時收音用";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "新增照片";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "儲存錄影";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -310,6 +419,7 @@
 		};
 		65D322952851C8F7008D665A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1E88C4426435A779887F206 /* Pods-ARQuickLookKitSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,6 +428,10 @@
 				DEVELOPMENT_TEAM = SUV34UZRXX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ARQuickLookKitSample/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "開啟 AR 畫面";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "錄影時收音用";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "新增照片";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "儲存錄影";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -358,6 +472,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		652703772851CB5F006637BF /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6527036D2851CA61006637BF /* ARQuickLookKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ARQuickLookKit;
+		};
+		6527036F2851CA64006637BF /* CameraButton */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CameraButton;
+		};
+		652703782851CB5F006637BF /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 652703772851CB5F006637BF /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 65D322772851C8F6008D665A /* Project object */;
 }

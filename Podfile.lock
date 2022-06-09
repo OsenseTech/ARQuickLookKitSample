@@ -1,0 +1,21 @@
+PODS:
+  - ARCapture (0.1.2)
+
+DEPENDENCIES:
+  - ARCapture (from `https://gitlab.com/seriyvolk83/arcapture.git`)
+
+EXTERNAL SOURCES:
+  ARCapture:
+    :git: https://gitlab.com/seriyvolk83/arcapture.git
+
+CHECKOUT OPTIONS:
+  ARCapture:
+    :commit: 32662b590e8bafaf99ec2097fca919a9c2af9462
+    :git: https://gitlab.com/seriyvolk83/arcapture.git
+
+SPEC CHECKSUMS:
+  ARCapture: 1df8da0ea0550b216a0018dd69339d35830c79a7
+
+PODFILE CHECKSUM: a386549bd0711649352b4cb990f3121d87db7465
+
+COCOAPODS: 1.11.3
