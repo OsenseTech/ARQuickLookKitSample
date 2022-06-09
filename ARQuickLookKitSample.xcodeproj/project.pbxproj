@@ -13,6 +13,8 @@
 		652703752851CAB5006637BF /* ViewController+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652703722851CAB5006637BF /* ViewController+UIGestureRecognizerDelegate.swift */; };
 		652703762851CAB5006637BF /* ViewController+ARSCNViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652703732851CAB5006637BF /* ViewController+ARSCNViewDelegate.swift */; };
 		652703792851CB5F006637BF /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 652703782851CB5F006637BF /* SnapKit */; };
+		65362DBB2851D95F00C819B7 /* ViewControllerObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 65362DBA2851D95F00C819B7 /* ViewControllerObjC.m */; };
+		6582AB3D2851F388008EADC4 /* ARQuickLookKitObjC in Frameworks */ = {isa = PBXBuildFile; productRef = 6582AB3C2851F388008EADC4 /* ARQuickLookKitObjC */; };
 		659544692851CC0E00306388 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 659544682851CC0E00306388 /* Models.scnassets */; };
 		65D322832851C8F6008D665A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D322822851C8F6008D665A /* AppDelegate.swift */; };
 		65D322852851C8F6008D665A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D322842851C8F6008D665A /* SceneDelegate.swift */; };
@@ -27,6 +29,9 @@
 		652703712851CAB5006637BF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		652703722851CAB5006637BF /* ViewController+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
 		652703732851CAB5006637BF /* ViewController+ARSCNViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+ARSCNViewDelegate.swift"; sourceTree = "<group>"; };
+		65362DB82851D95F00C819B7 /* ARQuickLookKitSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARQuickLookKitSample-Bridging-Header.h"; sourceTree = "<group>"; };
+		65362DB92851D95F00C819B7 /* ViewControllerObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerObjC.h; sourceTree = "<group>"; };
+		65362DBA2851D95F00C819B7 /* ViewControllerObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerObjC.m; sourceTree = "<group>"; };
 		659544682851CC0E00306388 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
 		65D3227F2851C8F6008D665A /* ARQuickLookKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARQuickLookKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D322822851C8F6008D665A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +53,7 @@
 				652703792851CB5F006637BF /* SnapKit in Frameworks */,
 				6527036E2851CA61006637BF /* ARQuickLookKit in Frameworks */,
 				652703702851CA64006637BF /* CameraButton in Frameworks */,
+				6582AB3D2851F388008EADC4 /* ARQuickLookKitObjC in Frameworks */,
 				772A13D4C1DF15DAD6D4C076 /* Pods_ARQuickLookKitSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,6 +94,8 @@
 				65D322822851C8F6008D665A /* AppDelegate.swift */,
 				65D322842851C8F6008D665A /* SceneDelegate.swift */,
 				652703712851CAB5006637BF /* ViewController.swift */,
+				65362DB92851D95F00C819B7 /* ViewControllerObjC.h */,
+				65362DBA2851D95F00C819B7 /* ViewControllerObjC.m */,
 				652703732851CAB5006637BF /* ViewController+ARSCNViewDelegate.swift */,
 				652703722851CAB5006637BF /* ViewController+UIGestureRecognizerDelegate.swift */,
 				65D322882851C8F6008D665A /* Main.storyboard */,
@@ -95,6 +103,7 @@
 				659544682851CC0E00306388 /* Models.scnassets */,
 				65D3228D2851C8F7008D665A /* LaunchScreen.storyboard */,
 				65D322902851C8F7008D665A /* Info.plist */,
+				65362DB82851D95F00C819B7 /* ARQuickLookKitSample-Bridging-Header.h */,
 			);
 			path = ARQuickLookKitSample;
 			sourceTree = "<group>";
@@ -138,6 +147,7 @@
 				6527036D2851CA61006637BF /* ARQuickLookKit */,
 				6527036F2851CA64006637BF /* CameraButton */,
 				652703782851CB5F006637BF /* SnapKit */,
+				6582AB3C2851F388008EADC4 /* ARQuickLookKitObjC */,
 			);
 			productName = ARQuickLookKitSample;
 			productReference = 65D3227F2851C8F6008D665A /* ARQuickLookKitSample.app */;
@@ -155,6 +165,7 @@
 				TargetAttributes = {
 					65D3227E2851C8F6008D665A = {
 						CreatedOnToolsVersion = 13.3;
+						LastSwiftMigration = 1330;
 					};
 				};
 			};
@@ -240,6 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65362DBB2851D95F00C819B7 /* ViewControllerObjC.m in Sources */,
 				652703742851CAB5006637BF /* ViewController.swift in Sources */,
 				652703752851CAB5006637BF /* ViewController+UIGestureRecognizerDelegate.swift in Sources */,
 				65D322832851C8F6008D665A /* AppDelegate.swift in Sources */,
@@ -390,6 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SUV34UZRXX;
@@ -412,6 +425,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.osensetech.ARQuickLookKitSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ARQuickLookKitSample/ARQuickLookKitSample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -423,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SUV34UZRXX;
@@ -445,6 +461,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.osensetech.ARQuickLookKitSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ARQuickLookKitSample/ARQuickLookKitSample-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -497,6 +514,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 652703772851CB5F006637BF /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		6582AB3C2851F388008EADC4 /* ARQuickLookKitObjC */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ARQuickLookKitObjC;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
