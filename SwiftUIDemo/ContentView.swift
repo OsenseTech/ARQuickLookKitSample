@@ -6,12 +6,30 @@
 //
 
 import SwiftUI
+import ARKit
 
 struct ContentView: View {
+    
+    private let configuration: ARConfiguration = {
+        let config = ARWorldTrackingConfiguration()
+        config.planeDetection = [.horizontal]
+        
+        return config
+    }()
+    
+    private let coachingView: ARCoachingOverlayView = {
+        let coachingView = ARCoachingOverlayView()
+        coachingView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        coachingView.goal = .horizontalPlane
+        
+        return coachingView
+    }()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ARSceneView(config: configuration, coachingView: coachingView)
+            .ignoresSafeArea()
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

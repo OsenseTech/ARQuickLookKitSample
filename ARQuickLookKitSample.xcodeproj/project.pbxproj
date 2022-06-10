@@ -13,11 +13,11 @@
 		652703752851CAB5006637BF /* ViewController+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652703722851CAB5006637BF /* ViewController+UIGestureRecognizerDelegate.swift */; };
 		652703762851CAB5006637BF /* ViewController+ARSCNViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652703732851CAB5006637BF /* ViewController+ARSCNViewDelegate.swift */; };
 		652703792851CB5F006637BF /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 652703782851CB5F006637BF /* SnapKit */; };
-		6582AB3F2851FD1A008EADC4 /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6582AB3E2851FD1A008EADC4 /* ARView.swift */; };
 		6582AB6F2852DBD7008EADC4 /* SwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6582AB6E2852DBD7008EADC4 /* SwiftUIDemoApp.swift */; };
 		6582AB712852DBD7008EADC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6582AB702852DBD7008EADC4 /* ContentView.swift */; };
 		6582AB732852DBD8008EADC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6582AB722852DBD8008EADC4 /* Assets.xcassets */; };
 		6582AB762852DBD8008EADC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6582AB752852DBD8008EADC4 /* Preview Assets.xcassets */; };
+		6582AB7B2852DC66008EADC4 /* ARSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6582AB7A2852DC66008EADC4 /* ARSceneView.swift */; };
 		659544692851CC0E00306388 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 659544682851CC0E00306388 /* Models.scnassets */; };
 		65D322832851C8F6008D665A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D322822851C8F6008D665A /* AppDelegate.swift */; };
 		65D322852851C8F6008D665A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D322842851C8F6008D665A /* SceneDelegate.swift */; };
@@ -32,12 +32,12 @@
 		652703712851CAB5006637BF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		652703722851CAB5006637BF /* ViewController+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
 		652703732851CAB5006637BF /* ViewController+ARSCNViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+ARSCNViewDelegate.swift"; sourceTree = "<group>"; };
-		6582AB3E2851FD1A008EADC4 /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
 		6582AB6C2852DBD7008EADC4 /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6582AB6E2852DBD7008EADC4 /* SwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		6582AB702852DBD7008EADC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6582AB722852DBD8008EADC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6582AB752852DBD8008EADC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6582AB7A2852DC66008EADC4 /* ARSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSceneView.swift; sourceTree = "<group>"; };
 		659544682851CC0E00306388 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
 		65D3227F2851C8F6008D665A /* ARQuickLookKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARQuickLookKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D322822851C8F6008D665A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +86,7 @@
 			children = (
 				6582AB6E2852DBD7008EADC4 /* SwiftUIDemoApp.swift */,
 				6582AB702852DBD7008EADC4 /* ContentView.swift */,
+				6582AB7A2852DC66008EADC4 /* ARSceneView.swift */,
 				6582AB722852DBD8008EADC4 /* Assets.xcassets */,
 				6582AB742852DBD8008EADC4 /* Preview Content */,
 			);
@@ -127,7 +128,6 @@
 				65D322822851C8F6008D665A /* AppDelegate.swift */,
 				65D322842851C8F6008D665A /* SceneDelegate.swift */,
 				652703712851CAB5006637BF /* ViewController.swift */,
-				6582AB3E2851FD1A008EADC4 /* ARView.swift */,
 				652703732851CAB5006637BF /* ViewController+ARSCNViewDelegate.swift */,
 				652703722851CAB5006637BF /* ViewController+UIGestureRecognizerDelegate.swift */,
 				65D322882851C8F6008D665A /* Main.storyboard */,
@@ -312,6 +312,7 @@
 			files = (
 				6582AB712852DBD7008EADC4 /* ContentView.swift in Sources */,
 				6582AB6F2852DBD7008EADC4 /* SwiftUIDemoApp.swift in Sources */,
+				6582AB7B2852DC66008EADC4 /* ARSceneView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +325,6 @@
 				65D322832851C8F6008D665A /* AppDelegate.swift in Sources */,
 				652703762851CAB5006637BF /* ViewController+ARSCNViewDelegate.swift in Sources */,
 				65D322852851C8F6008D665A /* SceneDelegate.swift in Sources */,
-				6582AB3F2851FD1A008EADC4 /* ARView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +361,7 @@
 				DEVELOPMENT_TEAM = SUV34UZRXX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "顯示 AR 需要開啟相機";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -390,6 +391,7 @@
 				DEVELOPMENT_TEAM = SUV34UZRXX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "顯示 AR 需要開啟相機";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
