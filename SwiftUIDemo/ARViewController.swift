@@ -1,8 +1,8 @@
 //
-//  ViewController.swift
-//  ARQuickLookKitSample
+//  ARViewController.swift
+//  SwiftUIDemo
 //
-//  Created by 蘇健豪 on 2022/5/24.
+//  Created by 蘇健豪 on 2022/6/10.
 //
 
 import UIKit
@@ -12,7 +12,7 @@ import ARCapture
 import ARQuickLookKit
 import CameraButton
 
-class ViewController: UIViewController, ARViewControllerProtocol {
+class ARViewController: UIViewController, ARViewControllerProtocol {
     
     var sceneView = ARSCNView(frame: .zero)
     
@@ -74,9 +74,9 @@ class ViewController: UIViewController, ARViewControllerProtocol {
                 make.edges.equalToSuperview()
             }
             
-            #if DEBUG
+#if DEBUG
             sceneView.debugOptions = .showFeaturePoints
-            #endif
+#endif
         }
         
         func setupCoachingOverlay() {
@@ -123,7 +123,7 @@ class ViewController: UIViewController, ARViewControllerProtocol {
     
 }
 
-extension ViewController: CameraButtonDelegate {
+extension ARViewController: CameraButtonDelegate {
     
     func didTap(_ button: CameraButton) {
         takePhoto()

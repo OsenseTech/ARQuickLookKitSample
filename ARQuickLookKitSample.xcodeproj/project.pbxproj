@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		263E17A928781661E2DFD584 /* Pods_SwiftUIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFED6A4A8DEC4DBD3A9060FD /* Pods_SwiftUIDemo.framework */; };
 		6527036E2851CA61006637BF /* ARQuickLookKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6527036D2851CA61006637BF /* ARQuickLookKit */; };
 		652703702851CA64006637BF /* CameraButton in Frameworks */ = {isa = PBXBuildFile; productRef = 6527036F2851CA64006637BF /* CameraButton */; };
 		652703742851CAB5006637BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652703712851CAB5006637BF /* ViewController.swift */; };
@@ -18,6 +19,13 @@
 		6582AB732852DBD8008EADC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6582AB722852DBD8008EADC4 /* Assets.xcassets */; };
 		6582AB762852DBD8008EADC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6582AB752852DBD8008EADC4 /* Preview Assets.xcassets */; };
 		6582AB7B2852DC66008EADC4 /* ARSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6582AB7A2852DC66008EADC4 /* ARSceneView.swift */; };
+		6582AB7D2852F657008EADC4 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6582AB7C2852F657008EADC4 /* ARViewController.swift */; };
+		6582AB802852FBFE008EADC4 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6582AB7F2852FBFE008EADC4 /* SnapKit */; };
+		6582AB822852FC1C008EADC4 /* ARQuickLookKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6582AB812852FC1C008EADC4 /* ARQuickLookKit */; };
+		6582AB842852FC34008EADC4 /* CameraButton in Frameworks */ = {isa = PBXBuildFile; productRef = 6582AB832852FC34008EADC4 /* CameraButton */; };
+		6582AB862852FC88008EADC4 /* ARViewController+ARSCNViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6582AB852852FC88008EADC4 /* ARViewController+ARSCNViewDelegate.swift */; };
+		6582AB882852FCB4008EADC4 /* ARViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6582AB872852FCB4008EADC4 /* ARViewControllerRepresentable.swift */; };
+		6582AB8A2852FD7B008EADC4 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 6582AB892852FD7B008EADC4 /* Models.scnassets */; };
 		659544692851CC0E00306388 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 659544682851CC0E00306388 /* Models.scnassets */; };
 		65D322832851C8F6008D665A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D322822851C8F6008D665A /* AppDelegate.swift */; };
 		65D322852851C8F6008D665A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D322842851C8F6008D665A /* SceneDelegate.swift */; };
@@ -38,6 +46,10 @@
 		6582AB722852DBD8008EADC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6582AB752852DBD8008EADC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6582AB7A2852DC66008EADC4 /* ARSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSceneView.swift; sourceTree = "<group>"; };
+		6582AB7C2852F657008EADC4 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		6582AB852852FC88008EADC4 /* ARViewController+ARSCNViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARViewController+ARSCNViewDelegate.swift"; sourceTree = "<group>"; };
+		6582AB872852FCB4008EADC4 /* ARViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewControllerRepresentable.swift; sourceTree = "<group>"; };
+		6582AB892852FD7B008EADC4 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = Models.scnassets; path = ARQuickLookKitSample/Models.scnassets; sourceTree = SOURCE_ROOT; };
 		659544682851CC0E00306388 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
 		65D3227F2851C8F6008D665A /* ARQuickLookKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARQuickLookKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D322822851C8F6008D665A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,8 +59,11 @@
 		65D3228E2851C8F7008D665A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65D322902851C8F7008D665A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65E55C8F2851CA2600CE5D9F /* ARQuickLookKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ARQuickLookKit; path = ../ARQuickLookKit; sourceTree = "<group>"; };
+		7789BD62CFC8A0A0463562D0 /* Pods-SwiftUIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIDemo.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIDemo/Pods-SwiftUIDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9667B1287357EDFE5CE03580 /* Pods-SwiftUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIDemo.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIDemo/Pods-SwiftUIDemo.release.xcconfig"; sourceTree = "<group>"; };
 		BA00E2B5D92987F8CD630F60 /* Pods_ARQuickLookKitSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARQuickLookKitSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1E88C4426435A779887F206 /* Pods-ARQuickLookKitSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARQuickLookKitSample.release.xcconfig"; path = "Target Support Files/Pods-ARQuickLookKitSample/Pods-ARQuickLookKitSample.release.xcconfig"; sourceTree = "<group>"; };
+		FFED6A4A8DEC4DBD3A9060FD /* Pods_SwiftUIDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6582AB822852FC1C008EADC4 /* ARQuickLookKit in Frameworks */,
+				6582AB842852FC34008EADC4 /* CameraButton in Frameworks */,
+				263E17A928781661E2DFD584 /* Pods_SwiftUIDemo.framework in Frameworks */,
+				6582AB802852FBFE008EADC4 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				BA00E2B5D92987F8CD630F60 /* Pods_ARQuickLookKitSample.framework */,
+				FFED6A4A8DEC4DBD3A9060FD /* Pods_SwiftUIDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -87,7 +107,11 @@
 				6582AB6E2852DBD7008EADC4 /* SwiftUIDemoApp.swift */,
 				6582AB702852DBD7008EADC4 /* ContentView.swift */,
 				6582AB7A2852DC66008EADC4 /* ARSceneView.swift */,
+				6582AB872852FCB4008EADC4 /* ARViewControllerRepresentable.swift */,
+				6582AB7C2852F657008EADC4 /* ARViewController.swift */,
+				6582AB852852FC88008EADC4 /* ARViewController+ARSCNViewDelegate.swift */,
 				6582AB722852DBD8008EADC4 /* Assets.xcassets */,
+				6582AB892852FD7B008EADC4 /* Models.scnassets */,
 				6582AB742852DBD8008EADC4 /* Preview Content */,
 			);
 			path = SwiftUIDemo;
@@ -152,6 +176,8 @@
 			children = (
 				01C1B6FE1AE66C13936D4402 /* Pods-ARQuickLookKitSample.debug.xcconfig */,
 				C1E88C4426435A779887F206 /* Pods-ARQuickLookKitSample.release.xcconfig */,
+				7789BD62CFC8A0A0463562D0 /* Pods-SwiftUIDemo.debug.xcconfig */,
+				9667B1287357EDFE5CE03580 /* Pods-SwiftUIDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -163,15 +189,22 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6582AB772852DBD8008EADC4 /* Build configuration list for PBXNativeTarget "SwiftUIDemo" */;
 			buildPhases = (
+				C8A2BD2AC4C3782976777F4F /* [CP] Check Pods Manifest.lock */,
 				6582AB682852DBD7008EADC4 /* Sources */,
 				6582AB692852DBD7008EADC4 /* Frameworks */,
 				6582AB6A2852DBD7008EADC4 /* Resources */,
+				3FFBA470C2D1E2D2D87EEA08 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SwiftUIDemo;
+			packageProductDependencies = (
+				6582AB7F2852FBFE008EADC4 /* SnapKit */,
+				6582AB812852FC1C008EADC4 /* ARQuickLookKit */,
+				6582AB832852FC34008EADC4 /* CameraButton */,
+			);
 			productName = SwiftUIDemo;
 			productReference = 6582AB6C2852DBD7008EADC4 /* SwiftUIDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -229,6 +262,7 @@
 			mainGroup = 65D322762851C8F6008D665A;
 			packageReferences = (
 				652703772851CB5F006637BF /* XCRemoteSwiftPackageReference "SnapKit" */,
+				6582AB7E2852FBFE008EADC4 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = 65D322802851C8F6008D665A /* Products */;
 			projectDirPath = "";
@@ -245,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6582AB8A2852FD7B008EADC4 /* Models.scnassets in Resources */,
 				6582AB762852DBD8008EADC4 /* Preview Assets.xcassets in Resources */,
 				6582AB732852DBD8008EADC4 /* Assets.xcassets in Resources */,
 			);
@@ -286,6 +321,45 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		3FFBA470C2D1E2D2D87EEA08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIDemo/Pods-SwiftUIDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIDemo/Pods-SwiftUIDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIDemo/Pods-SwiftUIDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8A2BD2AC4C3782976777F4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUIDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D7F4EA124A0E2DA38C576158 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -313,6 +387,9 @@
 				6582AB712852DBD7008EADC4 /* ContentView.swift in Sources */,
 				6582AB6F2852DBD7008EADC4 /* SwiftUIDemoApp.swift in Sources */,
 				6582AB7B2852DC66008EADC4 /* ARSceneView.swift in Sources */,
+				6582AB862852FC88008EADC4 /* ARViewController+ARSCNViewDelegate.swift in Sources */,
+				6582AB882852FCB4008EADC4 /* ARViewControllerRepresentable.swift in Sources */,
+				6582AB7D2852F657008EADC4 /* ARViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +429,7 @@
 /* Begin XCBuildConfiguration section */
 		6582AB782852DBD8008EADC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7789BD62CFC8A0A0463562D0 /* Pods-SwiftUIDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -382,6 +460,7 @@
 		};
 		6582AB792852DBD8008EADC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9667B1287357EDFE5CE03580 /* Pods-SwiftUIDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -631,6 +710,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		6582AB7E2852FBFE008EADC4 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -646,6 +733,19 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 652703772851CB5F006637BF /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		6582AB7F2852FBFE008EADC4 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 652703772851CB5F006637BF /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		6582AB812852FC1C008EADC4 /* ARQuickLookKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ARQuickLookKit;
+		};
+		6582AB832852FC34008EADC4 /* CameraButton */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CameraButton;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

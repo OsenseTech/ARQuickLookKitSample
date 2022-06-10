@@ -9,3 +9,12 @@ target 'ARQuickLookKitSample' do
   pod 'ARCapture', :git => 'https://gitlab.com/seriyvolk83/arcapture.git'
 
 end
+
+target 'SwiftUIDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  
+  # Pods for ARQuickLookKitSample
+  pod 'ARCapture', :git => 'https://gitlab.com/seriyvolk83/arcapture.git'
+  
+end

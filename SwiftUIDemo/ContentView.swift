@@ -26,7 +26,8 @@ struct ContentView: View {
     }()
     
     var body: some View {
-        ARSceneView(config: configuration, coachingView: coachingView)
+        ARViewControllerRepresentable()
+//        ARSceneView(config: configuration, coachingView: coachingView)
             .ignoresSafeArea()
     }
     
