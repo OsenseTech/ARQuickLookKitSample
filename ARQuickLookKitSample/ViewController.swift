@@ -18,7 +18,7 @@ class ViewController: UIViewController, ARViewControllerProtocol {
     
     private let cameraButton = CameraButton()
     
-    lazy var gestureHandler = GestureHandler(sceneView: sceneView, viewController: self, gestures: [.pinch, .pan])
+    lazy var gestureHandler = GestureHandler(viewController: self)
     
     lazy var virtualObjectLoader = VirtualObjectLoader(sceneView: sceneView)
     
@@ -51,6 +51,7 @@ class ViewController: UIViewController, ARViewControllerProtocol {
         loadModel()
         
         capture = ARCapture(view: sceneView)
+        gestureHandler.setup()
         
         func loadModel() {
             let modelNames = ["lamp", "monkey"]
@@ -60,7 +61,7 @@ class ViewController: UIViewController, ARViewControllerProtocol {
             
             func loadModel(model: String) {
                 guard let modelURL = Bundle.main.url(forResource: "Models.scnassets/\(model)/model", withExtension: "scn") else { return }
-                guard let object = VirtualObject(url: modelURL) else { return }
+                guard let object = VirtualReferenceObject(url: modelURL, allowedAlignment: .horizontal) else { return }
                 
                 virtualObjectLoader.loadVirtualObject(object, key: model)
             }
