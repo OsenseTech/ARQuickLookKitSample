@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		263E17A928781661E2DFD584 /* Pods_SwiftUIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFED6A4A8DEC4DBD3A9060FD /* Pods_SwiftUIDemo.framework */; };
-		6527036E2851CA61006637BF /* ARQuickLookKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6527036D2851CA61006637BF /* ARQuickLookKit */; };
-		652703702851CA64006637BF /* CameraButton in Frameworks */ = {isa = PBXBuildFile; productRef = 6527036F2851CA64006637BF /* CameraButton */; };
 		652703742851CAB5006637BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652703712851CAB5006637BF /* ViewController.swift */; };
 		652703752851CAB5006637BF /* ViewController+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652703722851CAB5006637BF /* ViewController+UIGestureRecognizerDelegate.swift */; };
 		652703762851CAB5006637BF /* ViewController+ARSCNViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652703732851CAB5006637BF /* ViewController+ARSCNViewDelegate.swift */; };
 		652703792851CB5F006637BF /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 652703782851CB5F006637BF /* SnapKit */; };
+		6548F4C728AA3C0000CB51D9 /* helmet.dae in Resources */ = {isa = PBXBuildFile; fileRef = 6548F4C628AA3C0000CB51D9 /* helmet.dae */; };
+		6548F4CC28AA3C1400CB51D9 /* helmet baked_METALLIC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6548F4C828AA3C1400CB51D9 /* helmet baked_METALLIC.jpg */; };
+		6548F4CD28AA3C1400CB51D9 /* helmet baked_ROUGHNESS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6548F4C928AA3C1400CB51D9 /* helmet baked_ROUGHNESS.jpg */; };
+		6548F4CE28AA3C1400CB51D9 /* helmet baked_NORMAL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6548F4CA28AA3C1400CB51D9 /* helmet baked_NORMAL.jpg */; };
+		6548F4CF28AA3C1400CB51D9 /* helmet baked_BASE COLOR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6548F4CB28AA3C1400CB51D9 /* helmet baked_BASE COLOR.jpg */; };
+		654F0AD32886B820008413ED /* ARQuickLookKit in Frameworks */ = {isa = PBXBuildFile; productRef = 654F0AD22886B820008413ED /* ARQuickLookKit */; };
+		6573094528A3873200CD2DE9 /* CameraButton in Frameworks */ = {isa = PBXBuildFile; productRef = 6573094428A3873200CD2DE9 /* CameraButton */; };
+		6573094728A3879200CD2DE9 /* ARQuickLookKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6573094628A3879200CD2DE9 /* ARQuickLookKit */; };
 		6582AB6F2852DBD7008EADC4 /* SwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6582AB6E2852DBD7008EADC4 /* SwiftUIDemoApp.swift */; };
 		6582AB712852DBD7008EADC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6582AB702852DBD7008EADC4 /* ContentView.swift */; };
 		6582AB732852DBD8008EADC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6582AB722852DBD8008EADC4 /* Assets.xcassets */; };
@@ -21,8 +27,6 @@
 		6582AB7B2852DC66008EADC4 /* ARSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6582AB7A2852DC66008EADC4 /* ARSceneView.swift */; };
 		6582AB7D2852F657008EADC4 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6582AB7C2852F657008EADC4 /* ARViewController.swift */; };
 		6582AB802852FBFE008EADC4 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6582AB7F2852FBFE008EADC4 /* SnapKit */; };
-		6582AB822852FC1C008EADC4 /* ARQuickLookKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6582AB812852FC1C008EADC4 /* ARQuickLookKit */; };
-		6582AB842852FC34008EADC4 /* CameraButton in Frameworks */ = {isa = PBXBuildFile; productRef = 6582AB832852FC34008EADC4 /* CameraButton */; };
 		6582AB862852FC88008EADC4 /* ARViewController+ARSCNViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6582AB852852FC88008EADC4 /* ARViewController+ARSCNViewDelegate.swift */; };
 		6582AB882852FCB4008EADC4 /* ARViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6582AB872852FCB4008EADC4 /* ARViewControllerRepresentable.swift */; };
 		6582AB8A2852FD7B008EADC4 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 6582AB892852FD7B008EADC4 /* Models.scnassets */; };
@@ -40,6 +44,12 @@
 		652703712851CAB5006637BF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		652703722851CAB5006637BF /* ViewController+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
 		652703732851CAB5006637BF /* ViewController+ARSCNViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+ARSCNViewDelegate.swift"; sourceTree = "<group>"; };
+		6548F4C628AA3C0000CB51D9 /* helmet.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = helmet.dae; sourceTree = "<group>"; };
+		6548F4C828AA3C1400CB51D9 /* helmet baked_METALLIC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "helmet baked_METALLIC.jpg"; sourceTree = "<group>"; };
+		6548F4C928AA3C1400CB51D9 /* helmet baked_ROUGHNESS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "helmet baked_ROUGHNESS.jpg"; sourceTree = "<group>"; };
+		6548F4CA28AA3C1400CB51D9 /* helmet baked_NORMAL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "helmet baked_NORMAL.jpg"; sourceTree = "<group>"; };
+		6548F4CB28AA3C1400CB51D9 /* helmet baked_BASE COLOR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "helmet baked_BASE COLOR.jpg"; sourceTree = "<group>"; };
+		654F0AD12886B812008413ED /* ARQuickLookKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ARQuickLookKit; path = ../ARQuickLookKit; sourceTree = "<group>"; };
 		6582AB6C2852DBD7008EADC4 /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6582AB6E2852DBD7008EADC4 /* SwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		6582AB702852DBD7008EADC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,7 +68,6 @@
 		65D3228B2851C8F7008D665A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65D3228E2851C8F7008D665A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65D322902851C8F7008D665A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65E55C8F2851CA2600CE5D9F /* ARQuickLookKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ARQuickLookKit; path = ../ARQuickLookKit; sourceTree = "<group>"; };
 		7789BD62CFC8A0A0463562D0 /* Pods-SwiftUIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIDemo.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIDemo/Pods-SwiftUIDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		9667B1287357EDFE5CE03580 /* Pods-SwiftUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIDemo.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIDemo/Pods-SwiftUIDemo.release.xcconfig"; sourceTree = "<group>"; };
 		BA00E2B5D92987F8CD630F60 /* Pods_ARQuickLookKitSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARQuickLookKitSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,8 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6582AB822852FC1C008EADC4 /* ARQuickLookKit in Frameworks */,
-				6582AB842852FC34008EADC4 /* CameraButton in Frameworks */,
+				6573094728A3879200CD2DE9 /* ARQuickLookKit in Frameworks */,
 				263E17A928781661E2DFD584 /* Pods_SwiftUIDemo.framework in Frameworks */,
 				6582AB802852FBFE008EADC4 /* SnapKit in Frameworks */,
 			);
@@ -82,9 +90,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				654F0AD32886B820008413ED /* ARQuickLookKit in Frameworks */,
+				6573094528A3873200CD2DE9 /* CameraButton in Frameworks */,
 				652703792851CB5F006637BF /* SnapKit in Frameworks */,
-				6527036E2851CA61006637BF /* ARQuickLookKit in Frameworks */,
-				652703702851CA64006637BF /* CameraButton in Frameworks */,
 				772A13D4C1DF15DAD6D4C076 /* Pods_ARQuickLookKitSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,6 +107,18 @@
 				FFED6A4A8DEC4DBD3A9060FD /* Pods_SwiftUIDemo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6559138C28B4D97400427116 /* helmet */ = {
+			isa = PBXGroup;
+			children = (
+				6548F4C628AA3C0000CB51D9 /* helmet.dae */,
+				6548F4CB28AA3C1400CB51D9 /* helmet baked_BASE COLOR.jpg */,
+				6548F4C828AA3C1400CB51D9 /* helmet baked_METALLIC.jpg */,
+				6548F4CA28AA3C1400CB51D9 /* helmet baked_NORMAL.jpg */,
+				6548F4C928AA3C1400CB51D9 /* helmet baked_ROUGHNESS.jpg */,
+			);
+			path = helmet;
 			sourceTree = "<group>";
 		};
 		6582AB6D2852DBD7008EADC4 /* SwiftUIDemo */ = {
@@ -128,7 +148,7 @@
 		65D322762851C8F6008D665A = {
 			isa = PBXGroup;
 			children = (
-				65E55C8E2851CA2600CE5D9F /* Packages */,
+				654F0AD12886B812008413ED /* ARQuickLookKit */,
 				65D322812851C8F6008D665A /* ARQuickLookKitSample */,
 				6582AB6D2852DBD7008EADC4 /* SwiftUIDemo */,
 				65D322802851C8F6008D665A /* Products */,
@@ -152,6 +172,7 @@
 				65D322822851C8F6008D665A /* AppDelegate.swift */,
 				65D322842851C8F6008D665A /* SceneDelegate.swift */,
 				652703712851CAB5006637BF /* ViewController.swift */,
+				6559138C28B4D97400427116 /* helmet */,
 				652703732851CAB5006637BF /* ViewController+ARSCNViewDelegate.swift */,
 				652703722851CAB5006637BF /* ViewController+UIGestureRecognizerDelegate.swift */,
 				65D322882851C8F6008D665A /* Main.storyboard */,
@@ -161,14 +182,6 @@
 				65D322902851C8F7008D665A /* Info.plist */,
 			);
 			path = ARQuickLookKitSample;
-			sourceTree = "<group>";
-		};
-		65E55C8E2851CA2600CE5D9F /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				65E55C8F2851CA2600CE5D9F /* ARQuickLookKit */,
-			);
-			name = Packages;
 			sourceTree = "<group>";
 		};
 		F778D759B37CF4AF3EE5DFD7 /* Pods */ = {
@@ -202,8 +215,7 @@
 			name = SwiftUIDemo;
 			packageProductDependencies = (
 				6582AB7F2852FBFE008EADC4 /* SnapKit */,
-				6582AB812852FC1C008EADC4 /* ARQuickLookKit */,
-				6582AB832852FC34008EADC4 /* CameraButton */,
+				6573094628A3879200CD2DE9 /* ARQuickLookKit */,
 			);
 			productName = SwiftUIDemo;
 			productReference = 6582AB6C2852DBD7008EADC4 /* SwiftUIDemo.app */;
@@ -225,9 +237,9 @@
 			);
 			name = ARQuickLookKitSample;
 			packageProductDependencies = (
-				6527036D2851CA61006637BF /* ARQuickLookKit */,
-				6527036F2851CA64006637BF /* CameraButton */,
 				652703782851CB5F006637BF /* SnapKit */,
+				654F0AD22886B820008413ED /* ARQuickLookKit */,
+				6573094428A3873200CD2DE9 /* CameraButton */,
 			);
 			productName = ARQuickLookKitSample;
 			productReference = 65D3227F2851C8F6008D665A /* ARQuickLookKitSample.app */;
@@ -289,9 +301,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6548F4CC28AA3C1400CB51D9 /* helmet baked_METALLIC.jpg in Resources */,
 				65D3228F2851C8F7008D665A /* LaunchScreen.storyboard in Resources */,
+				6548F4C728AA3C0000CB51D9 /* helmet.dae in Resources */,
 				659544692851CC0E00306388 /* Models.scnassets in Resources */,
+				6548F4CF28AA3C1400CB51D9 /* helmet baked_BASE COLOR.jpg in Resources */,
 				65D3228C2851C8F7008D665A /* Assets.xcassets in Resources */,
+				6548F4CE28AA3C1400CB51D9 /* helmet baked_NORMAL.jpg in Resources */,
+				6548F4CD28AA3C1400CB51D9 /* helmet baked_ROUGHNESS.jpg in Resources */,
 				65D3228A2851C8F6008D665A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -721,31 +738,27 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		6527036D2851CA61006637BF /* ARQuickLookKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = ARQuickLookKit;
-		};
-		6527036F2851CA64006637BF /* CameraButton */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = CameraButton;
-		};
 		652703782851CB5F006637BF /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 652703772851CB5F006637BF /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
 		};
+		654F0AD22886B820008413ED /* ARQuickLookKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ARQuickLookKit;
+		};
+		6573094428A3873200CD2DE9 /* CameraButton */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CameraButton;
+		};
+		6573094628A3879200CD2DE9 /* ARQuickLookKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ARQuickLookKit;
+		};
 		6582AB7F2852FBFE008EADC4 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 652703772851CB5F006637BF /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
-		};
-		6582AB812852FC1C008EADC4 /* ARQuickLookKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = ARQuickLookKit;
-		};
-		6582AB832852FC34008EADC4 /* CameraButton */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = CameraButton;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
