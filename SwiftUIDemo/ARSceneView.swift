@@ -23,10 +23,6 @@ struct ARSceneView: UIViewRepresentable {
         coachingView.session = session
         view.addSubview(coachingView)
         
-#if DEBUG
-        view.debugOptions = [.showFeaturePoints, .showAnchorOrigins, .showAnchorGeometry]
-#endif
-        
         return view
     }
     

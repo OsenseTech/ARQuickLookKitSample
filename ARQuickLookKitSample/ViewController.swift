@@ -74,10 +74,6 @@ class ViewController: UIViewController, ARViewControllerProtocol {
             sceneView.snp.makeConstraints { make in
                 make.edges.equalToSuperview()
             }
-            
-            #if DEBUG
-            sceneView.debugOptions = .showFeaturePoints
-            #endif
         }
         
         func setupCoachingOverlay() {
